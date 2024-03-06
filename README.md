@@ -4,6 +4,9 @@ This is a follow up on abakaldins Template:
 
 [abakaldins](https://github.com/zabbix/community-templates/tree/main/Databases/Microsoft_SQL_Server/template_app_ms_sql_database_discovery_(lld)/6.0)
 
+I have not contacted him or anything. But i redid it because i needed to monitor MSSQL Servers in my envoirment. 
+If Abakaldins have something i will ofcourse delete this. 
+
 first you need to place the .ps1 on the MSSQL server you intend to monitor
 I have put it in the zabbix agent folder, in my case
 ```
@@ -33,3 +36,7 @@ Expression Type: Result is FALSE
 
 On the host create a Macro: {$INSTANCE01} -> and set it to the instance name. In my case SQLServer
 Now add the template to the host, then restart the agent.
+
+Now it should work. 
+
+KNOWN bug is that the macro {INSTANCE01} Works, just not in item names. 
