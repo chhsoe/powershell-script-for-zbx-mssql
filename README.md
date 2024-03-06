@@ -2,7 +2,7 @@
 
 This is a follow up on abakaldins Template: 
 
-[abakaldins](https://pages.github.com/](https://github.com/zabbix/community-templates/tree/main/Databases/Microsoft_SQL_Server/template_app_ms_sql_database_discovery_(lld)/6.0))
+[abakaldins](https://github.com/zabbix/community-templates/tree/main/Databases/Microsoft_SQL_Server/template_app_ms_sql_database_discovery_(lld)/6.0)
 
 first you need to place the .ps1 on the MSSQL server you intend to monitor
 I have put it in the zabbix agent folder, in my case
